@@ -1,4 +1,4 @@
-# Best practices for Google Docs
+# Google Docs
 
 ## How to get notified on all comments of a document?
 
