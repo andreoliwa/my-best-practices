@@ -10,8 +10,8 @@ with "Last 30 minutes".
 
 ✅ **DO**
 
-![granafa-absolute-url.png](images/granafa-absolute-url.png)
+![granafa-absolute-url.png](images/grafana-absolute-url.png)
 
 ❌ **DON'T**
 
-![granafa-shortened-url.png](images/granafa-shortened-url.png)
+![granafa-shortened-url.png](images/grafana-shortened-url.png)
