@@ -8,6 +8,8 @@ from it. Threads get buried; tickets don't.
 When you create a ticket from Slack, Jira will sync the thread to the ticket
 automatically. Every post in the thread will appear in the ticket's comments.
 
+![Create ticket from thread](images/jira-create-ticket-from-thread.png)
+
 ## Sync an existing thread to a ticket
 
 If you didn't create the ticket from the thread, you can still sync it.
