@@ -30,3 +30,20 @@ future readers will actually see them:
 - `TODO`s in serving and storage table definitions
 - `TODO`s in `.proto` files next to nested messages or deprecated fields
 - Business rules documented in `.proto` files, not just in Confluence
+
+## Commit messages
+
+Use [Conventional Commits](https://www.conventionalcommits.org/):
+
+```text
+<type>(<scope>): <subject>
+```
+
+Rules:
+
+- Subject line: brief, imperative, no period, no filler
+- Body: only when the _why_ is non-obvious; bullet points, not paragraphs
+- If the why belongs in the code (comment, docstring, TODO), put it there - not
+  in the commit body
+- Types: `feat`, `fix`, `refactor`, `perf`, `docs`, `test`, `chore`, `build`,
+  `ci`, `style`, `revert`
