@@ -32,7 +32,9 @@ repos:
       - id: commitizen
         stages:
           - commit-msg
-  - repo: https://github.com/igorshubovych/markdownlint-cli # https://github.com/DavidAnson/markdownlint
-    rev: v0.45.0
+  # Python-packaged Rust binary; no npm installation is needed.
+  - repo: https://github.com/rvben/rumdl-pre-commit
+    rev: v0.3.2
     hooks:
-      - id: markdownlint-fix
+      - id: rumdl-check
+        args: [--fix]
